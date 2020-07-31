@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="cadastro.css">
+    <!-- Acrescentar caminho -->
+    <link rel="icon" href="">
+    <title>Realizar login</title>
+</head>
+
+<body>
+
+<div class="login-page">
+    <div class="form">
+      <h2> Cadastro de usuário </h2>
+
+      <!-- Acrescentar caminho -->
+      <form class="login-form" method="POST" action="">
+        <span id="lacuna">Nome</span>
+        <input type="text" name="nome" placeholder="Nome"/>
+        <span id="lacuna">Sobrenome</span>
+        <input type="text" name="sobrenome" placeholder="Sobrenome"/>
+        <span id="lacuna">Usuário</span>
+        <input type="text" name="usuario" placeholder="Usuário"/>
+        <span id="lacuna">E-mail</span>
+        <input type="text" name="email" placeholder="E-mail"/>
+        <span id="lacuna">Telefone</span>
+        <input type="text" name="telefone" placeholder="Telefone"/>
+        <span id="lacuna">Data de Nascimento</span>
+        <input type="date" id="data" name="data_nasc" placeholder="Data de nascimento"/>
+        <span id="lacuna" class="txtSenha">Senha</span>
+        <input type="password" id="senha1" name="senha" placeholder="Senha"/>
+        <span id="lacuna" class="txtSenha">Confirmar senha</span>
+        <input type="password" id="senha2" name="senha" placeholder="Confirme sua senha"/>
+        <button type="submit" onclick=" return verifica()">Cadastrar-se</button>
+        <!-- Acrescentar caminho -->
+        <p class="message">Já está registrado? <a href="">Login</a></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="verifica-senha.js"></script>
+
+</body>
+</html>
