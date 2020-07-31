@@ -1,3 +1,3 @@
 #Observaçao
 
-Apesar da extençao .php a pagina index possui um codigo completo em html, sendo necessaria a extençao .php apenas para complementar a pagina com uma variavel de verificaçao de erro que e retornada da pagina de validaçao
+Apesar da extençao .php, a página index possui um código completo em html, sendo necessária a extenção .php apenas para complementar a página com uma variável de verificação de erro retornada da página de validação
