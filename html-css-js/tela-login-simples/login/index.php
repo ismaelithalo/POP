@@ -15,11 +15,11 @@
 <div class="login-page">
     <div class="form">
     <h2> Iniciar sessão </h2>
-      <?php
-      //Funçao de php apenas recebe uma variavel de erro da pagina de validaçao caso aconteça algum erro
+      <!--?php
+      //Funçao de php apenas recebe uma variavel de erro da pagina de validaçao caso aconteça algum erro. A ideia é que é que seja enviada a variavel "log" pelo metodo get com /?log=1 caso a validação não seja concluída
       if (isset($_GET['log']))
-      echo "Usuário e/ou senha inválido(s)"."<br>"."<br>";
-      ?>
+      echo "Usuário e/ou senha inválido(s)"."<br>"."<br>"; 
+      ?-->
       <!-- Acrescentar caminho -->
       <form class="login-form" method="POST" action="">
         <input type="text" name="usuario" placeholder="Usuário"/>
